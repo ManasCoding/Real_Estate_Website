@@ -1,8 +1,8 @@
-# Tru Real Estate Platform
+# PDR Real Estate Platform
 
 A premium, full-stack real estate web application built with a modern React frontend and a robust Node.js backend. The platform provides a dynamic and highly-styled landing page for prospective buyers and sellers, alongside a fully integrated admin dashboard for managing property listings and uploading property images.
 
-![Tru Real Estate](https://img.shields.io/badge/Status-Active-brightgreen)
+![PDR Real Estate](https://img.shields.io/badge/Status-Active-brightgreen)
 ![License](https://img.shields.io/badge/License-MIT-blue)
 
 ## ✨ Key Features

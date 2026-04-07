@@ -71,7 +71,7 @@ export default function App() {
 								<BuildingIcon className="text-primary h-6 w-6" />
 							</div>
 							<span className="ml-3 text-2xl font-extrabold uppercase tracking-widest bg-clip-text text-transparent bg-gradient-to-r from-primary to-accent">
-								Tru
+								PDR
 							</span>
 							<span className="ml-1 text-sm font-semibold uppercase tracking-widest text-gray-500">
 								Real Estate
@@ -97,11 +97,27 @@ export default function App() {
 								{text}
 							</Link>
 						))}
+						
+						{/* Mobile Action Buttons */}
+						<div className="flex flex-col gap-3 mt-6 pt-6 border-t border-gray-100 md:hidden">
+							<Button asChild variant="ghost" className="w-full justify-center text-gray-600 hover:text-primary focus:bg-primary/5 font-medium border border-gray-200">
+								<Link to="/contact">Contact us</Link>
+							</Button>
+							<Button asChild className="w-full justify-center bg-gradient-to-r from-primary to-accent hover:opacity-90 transition-opacity text-white rounded-full px-6 shadow-md shadow-primary/20">
+								<Link to="/login">
+									Log in
+								</Link>
+							</Button>
+						</div>
 					</div>
 					<div className="hidden md:flex items-center gap-4">
-						<Button variant="ghost" className="text-gray-600 hover:text-primary hover:bg-primary/5 font-medium">Contact us</Button>
-						<Button className="bg-gradient-to-r from-primary to-accent hover:opacity-90 transition-opacity text-white rounded-full px-6 shadow-md shadow-primary/20">
-							Join
+						<Button asChild variant="ghost" className="text-gray-600 hover:text-primary hover:bg-primary/5 font-medium">
+							<Link to="/contact">Contact us</Link>
+						</Button>
+						<Button asChild className="bg-gradient-to-r from-primary to-accent hover:opacity-90 transition-opacity text-white rounded-full px-6 shadow-md shadow-primary/20">
+							<Link to="/login">
+								Log in
+							</Link>
 						</Button>
 					</div>
 				</nav>

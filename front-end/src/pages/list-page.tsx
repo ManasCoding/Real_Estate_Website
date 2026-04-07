@@ -44,8 +44,8 @@ function ListPage() {
 				<Link to={'/'}>
 					<div className="flex items-center cursor-pointer">
 						<BuildingIcon className="text-primary h-8 w-8" />
-						<span className="ml-3 text-xl font-bold uppercase tracking-widest text-gray-800">
-							Tru
+						<span className="ml-3 text-2xl font-extrabold uppercase tracking-widest border-b-2 border-primary border-spacing-[-4] text-gray-800">
+							PDR
 						</span>
 						<span className="ml-1 text-sm uppercase tracking-widest text-gray-500">
 							Real Estate

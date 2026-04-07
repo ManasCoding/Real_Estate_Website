@@ -86,37 +86,37 @@ const testimonials = [
 	{
 		name: 'John Doe',
 		image: 'https://randomuser.me/api/portraits/men/32.jpg',
-		text: 'Tru made selling my house a breeze! Their expert guidance and personalized service were top-notch.',
+		text: 'PDR made selling my house a breeze! Their expert guidance and personalized service were top-notch.',
 		type: 'Seller',
 	},
 	{
 		name: 'Jane Smith',
 		image: 'https://randomuser.me/api/portraits/women/44.jpg',
-		text: 'I was amazed at how quickly my house sold with Tru. Highly recommended!',
+		text: 'I was amazed at how quickly my house sold with PDR. Highly recommended!',
 		type: 'Buyer',
 	},
 	{
 		name: 'Samuel Green',
 		image: 'https://randomuser.me/api/portraits/men/54.jpg',
-		text: 'The team at Tru provided excellent service and support throughout the selling process.',
+		text: 'The team at PDR provided excellent service and support throughout the selling process.',
 		type: 'Seller',
 	},
 	{
 		name: 'John Doe',
 		image: 'https://randomuser.me/api/portraits/men/32.jpg',
-		text: 'Tru made selling my house a breeze! Their expert guidance and personalized service were top-notch.',
+		text: 'PDR made selling my house a breeze! Their expert guidance and personalized service were top-notch.',
 		type: 'Seller',
 	},
 	{
 		name: 'Jane Smith',
 		image: 'https://randomuser.me/api/portraits/women/44.jpg',
-		text: 'I was amazed at how quickly my house sold with Tru. Highly recommended!',
+		text: 'I was amazed at how quickly my house sold with PDR. Highly recommended!',
 		type: 'Buyer',
 	},
 	{
 		name: 'Samuel Green',
 		image: 'https://randomuser.me/api/portraits/men/54.jpg',
-		text: 'The team at Tru provided excellent service and support throughout the selling process.',
+		text: 'The team at PDR provided excellent service and support throughout the selling process.',
 		type: 'Seller',
 	},
 ];
