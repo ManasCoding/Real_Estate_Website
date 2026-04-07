@@ -1,0 +1,7 @@
+.agent/
+.planning/
+get-shit-done/
+init_todos.json
+slug.txt
+node_modules/
+.env
