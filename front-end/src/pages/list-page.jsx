@@ -34,8 +34,7 @@ function ListPage() {
   const links = [
   { text: 'Buy or Rent', href: '/buy-rent' },
   { text: 'Sell or List', href: '/sell-list' },
-  { text: 'Home Value', href: '/home-value' },
-  { text: 'Franchise', href: '/franchise' }];
+  { text: 'Contact us', href: '/contact' }];
 
 
   return (
@@ -67,7 +66,7 @@ function ListPage() {
           
 					{links.map(({ text, href }) =>
           <Link
-            to={'/listings'}
+            to={href || '/listings'}
             className="text-gray-600 hover:text-gray-800 block md:inline-block"
             key={text}>
             
@@ -76,7 +75,6 @@ function ListPage() {
           )}
 				</div>
 				<div className="hidden md:flex gap-2">
-					<Button variant="outline">Contact us</Button>
 					<Button className="bg-accent hover:bg-accentHover text-white">
 						Join
 					</Button>

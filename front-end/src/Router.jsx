@@ -6,6 +6,7 @@ import AdminPage from './pages/admin-page';
 import LoginPage from './pages/login-page';
 import ContactPage from './pages/contact-page';
 import RegisterPage from './pages/register-page';
+import ForgotPasswordPage from './pages/forgot-password';
 
 export const router = createBrowserRouter([
   {
@@ -23,6 +24,10 @@ export const router = createBrowserRouter([
   {
     path: '/register',
     element: <RegisterPage />
+  },
+  {
+    path: '/forgot-password',
+    element: <ForgotPasswordPage />
   },
   {
     path: '/listings',

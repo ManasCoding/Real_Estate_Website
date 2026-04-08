@@ -1,0 +1,24 @@
+{
+  "commit_docs": true,
+  "date": "2026-04-08",
+  "timestamp": "2026-04-08T07:30:53.602Z",
+  "todo_count": 1,
+  "todos": [
+    {
+      "file": "2026-04-07-modularize-app-add-admin-page-and-mongodb.md",
+      "created": "2026-04-07T11:47:36+05:30",
+      "title": "Modularize app, add admin page and MongoDB",
+      "area": "architecture",
+      "path": ".planning/todos/pending/2026-04-07-modularize-app-add-admin-page-and-mongodb.md"
+    }
+  ],
+  "area_filter": null,
+  "pending_dir": ".planning/todos/pending",
+  "completed_dir": ".planning/todos/completed",
+  "planning_exists": true,
+  "todos_dir_exists": true,
+  "pending_dir_exists": true,
+  "project_root": "D:\\real-estate app",
+  "agents_installed": true,
+  "missing_agents": []
+}

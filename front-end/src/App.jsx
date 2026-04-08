@@ -55,8 +55,7 @@ const rightItemVariants = {
 const links = [
 { text: 'Buy or Rent', href: '/buy-rent' },
 { text: 'Sell or List', href: '/sell-list' },
-{ text: 'Home Value', href: '/home-value' },
-{ text: 'Franchise', href: '/franchise' }];
+{ text: 'Contact us', href: '/contact' }];
 
 export default function App() {
   const [isNavOpen, setIsNavOpen] = useState(false);
@@ -90,7 +89,7 @@ export default function App() {
             
 						{links.map(({ text, href }) =>
             <Link
-              to={'/listings'}
+              to={href || '/listings'}
               className="text-gray-600 font-medium hover:text-primary transition-colors duration-300 relative after:absolute after:bottom-0 after:left-0 after:h-[2px] after:w-0 after:bg-primary after:transition-all after:duration-300 hover:after:w-full block md:inline-block py-2 md:py-0"
               key={text}>
               
@@ -100,9 +99,6 @@ export default function App() {
 						
 						{/* Mobile Action Buttons */}
 						<div className="flex flex-col gap-3 mt-6 pt-6 border-t border-gray-100 md:hidden">
-							<Button asChild variant="ghost" className="w-full justify-center text-gray-600 hover:text-primary focus:bg-primary/5 font-medium border border-gray-200">
-								<Link to="/contact">Contact us</Link>
-							</Button>
 							<Button asChild className="w-full justify-center bg-gradient-to-r from-primary to-accent hover:opacity-90 transition-opacity text-white rounded-full px-6 shadow-md shadow-primary/20">
 								<Link to="/login">
 									Log in
@@ -111,9 +107,6 @@ export default function App() {
 						</div>
 					</div>
 					<div className="hidden md:flex items-center gap-4">
-						<Button asChild variant="ghost" className="text-gray-600 hover:text-primary hover:bg-primary/5 font-medium">
-							<Link to="/contact">Contact us</Link>
-						</Button>
 						<Button asChild className="bg-gradient-to-r from-primary to-accent hover:opacity-90 transition-opacity text-white rounded-full px-6 shadow-md shadow-primary/20">
 							<Link to="/login">
 								Log in
