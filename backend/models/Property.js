@@ -152,7 +152,7 @@ const propertySchema = new mongoose.Schema(
   }
 );
 
-propertySchema.pre('validate', function enrichProperty(next) {
+propertySchema.pre('validate', async function enrichProperty() {
   const area = getPrimaryArea(this.specifications || {});
 
   if (
@@ -175,8 +175,6 @@ propertySchema.pre('validate', function enrichProperty(next) {
       image.isPrimary = index === 0;
     });
   }
-
-  next();
 });
 
 propertySchema.virtual('price')

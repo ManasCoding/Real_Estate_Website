@@ -7,11 +7,11 @@ export function RegisterForm() {
   return (
     <div className="w-full max-w-md space-y-6">
 			<div className="text-center">
-				<h2 className="mt-2 text-3xl font-extrabold text-gray-900">
-					Create your account
+				<h2 className="mt-2 text-4xl font-black text-primary tracking-tighter leading-none">
+					Establish your <span className="italic font-serif text-accent">legacy.</span>
 				</h2>
-				<p className="mt-2 text-sm text-gray-600">
-					Welcome to the premium PDR real estate network
+				<p className="mt-4 text-sm text-muted-foreground font-medium uppercase tracking-widest">
+					Private Registry: Member Access Only
 				</p>
 			</div>
 			

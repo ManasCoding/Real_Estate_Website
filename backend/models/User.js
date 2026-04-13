@@ -109,12 +109,10 @@ const userSchema = new mongoose.Schema(
 
 userSchema.path('userRole').validate(nonEmptyArrayValidator('userRole'));
 
-userSchema.pre('validate', function validateLocalAuth(next) {
+userSchema.pre('validate', async function validateLocalAuth() {
   if (this.authProvider === 'local' && !this.password && this.isNew) {
     this.invalidate('password', 'Password is required for local authentication.');
   }
-
-  next();
 });
 
 applyIndexes(userSchema, [

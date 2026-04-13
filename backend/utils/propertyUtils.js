@@ -401,6 +401,10 @@ function buildPropertyQuery(query = {}) {
     filter['specifications.builtUpArea'] = { $gte: minArea };
   }
 
+  if (query.featured === 'true' || query.featured === true) {
+    filter.featured = true;
+  }
+
   const requestedSort = cleanString(query.sort);
   const sortBy = SORT_OPTIONS[requestedSort] ? requestedSort : 'newest';
   const page = parsePositiveInteger(query.page, DEFAULT_PAGE);

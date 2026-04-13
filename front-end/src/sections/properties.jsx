@@ -5,11 +5,12 @@ import { InfiniteMovingCards } from '@/components/ui/infinite-moving-cards';
 
 export function PropertiesList() {
   var images = [
-  'https://framerusercontent.com/images/Mf2SbSsE4lrNP12Wus9NuA1xVU.webp?scale-down-to=512',
-  'https://framerusercontent.com/images/gZQ1apomkY0bpjjPuzg5BkBzrvw.webp?scale-down-to=512',
-  'https://framerusercontent.com/images/Zud5Mr2yDfQ2NTPWvbbQhXk2o.webp?scale-down-to=512',
-  'https://framerusercontent.com/images/TJkxr7JUIQ96M8wbkj8nF3rlg.webp?scale-down-to=512',
-  'https://framerusercontent.com/images/oShABW70GatY4xZtrOLuGWvEc.webp?scale-down-to=512'];
+    'http://localhost:5000/uploads/sahid_nagar_flat.png',
+    'https://framerusercontent.com/images/Mf2SbSsE4lrNP12Wus9NuA1xVU.webp?scale-down-to=512',
+    'https://framerusercontent.com/images/gZQ1apomkY0bpjjPuzg5BkBzrvw.webp?scale-down-to=512',
+    'https://framerusercontent.com/images/Zud5Mr2yDfQ2NTPWvbbQhXk2o.webp?scale-down-to=512',
+    'https://framerusercontent.com/images/TJkxr7JUIQ96M8wbkj8nF3rlg.webp?scale-down-to=512'
+  ];
 
 
   return (

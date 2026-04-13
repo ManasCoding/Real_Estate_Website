@@ -3,6 +3,7 @@ const cors = require('cors');
 const path = require('path');
 const adminRoutes = require('./routes/adminRoutes');
 const propertyRoutes = require('./routes/propertyRoutes');
+const userRoutes = require('./routes/userRoutes');
 const notFound = require('./middleware/notFound');
 const errorHandler = require('./middleware/errorHandler');
 
@@ -24,6 +25,7 @@ app.get('/', (req, res) => {
 });
 
 app.use('/api/properties', propertyRoutes);
+app.use('/api/users', userRoutes);
 app.use('/api/admin', adminRoutes);
 
 app.use(notFound);

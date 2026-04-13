@@ -5,8 +5,10 @@ import SinglePage from './pages/details-page';
 import AdminPage from './pages/admin-page';
 import LoginPage from './pages/login-page';
 import ContactPage from './pages/contact-page';
+import AboutPage from './pages/about-page';
 import RegisterPage from './pages/register-page';
 import ForgotPasswordPage from './pages/forgot-password';
+import AddPropertyPage from './pages/add-property-page';
 
 export const router = createBrowserRouter([
   {
@@ -14,8 +16,16 @@ export const router = createBrowserRouter([
     element: <App />
   },
   {
+    path: '/sell-list',
+    element: <AddPropertyPage />
+  },
+  {
     path: '/contact',
     element: <ContactPage />
+  },
+  {
+    path: '/about',
+    element: <AboutPage />
   },
   {
     path: '/login',

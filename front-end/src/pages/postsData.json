@@ -138,5 +138,31 @@
 			"income": "Not applicable",
 			"size": 0.5
 		}
+	},
+	{
+		"id": 6,
+		"title": "Sahid Nagar Family Flat",
+		"price": 1000000,
+		"images": [
+			"http://localhost:5000/uploads/sahid_nagar_flat.png"
+		],
+		"address": "Sahid Nagar",
+		"city": "Bhubaneswar",
+		"bedroom": 3,
+		"bathroom": 2,
+		"latitude": "20.2848",
+		"longitude": "85.8427",
+		"type": "buy",
+		"property": "apartment",
+		"postDetail": {
+			"desc": "Luxurious family flat in the prime location of Sahid Nagar, Bhubaneswar. Close to schools, hospitals, and shopping centers.",
+			"utilities": "All inclusive",
+			"pet": "Allowed",
+			"income": "Required",
+			"size": 1800,
+			"school": 10,
+			"bus": 2,
+			"restaurant": 25
+		}
 	}
 ]

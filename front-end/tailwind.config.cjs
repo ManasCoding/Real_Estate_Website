@@ -20,10 +20,10 @@ module.exports = {
 		},
 		extend: {
 			colors: {
-				primary: '#6b46c1',
-				accent: '#9f7aea',
-				accentHover: '#805ad5',
-				bgColor: '#f3e8ff',
+				primary: 'hsl(var(--primary))',
+				accent: 'hsl(var(--accent))',
+				accentHover: 'hsl(var(--accent) / 0.8)',
+				bgColor: 'hsl(var(--background))',
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
@@ -49,6 +49,12 @@ module.exports = {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))',
 				},
+				// Professional Royal Palette
+				'royal-black': '#020617',
+				'royal-blue': '#0F172A',
+				'royal-accent': '#3B82F6',
+				'royal-deep': '#1E293B',
+				'royal-linen': '#F8FAFC',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',

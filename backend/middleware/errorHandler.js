@@ -35,7 +35,10 @@ module.exports = function errorHandler(err, req, res, next) {
     message = 'The requested resource id is invalid.';
   }
 
-  const payload = { error: message };
+  const payload = { 
+    error: message,
+    message: message 
+  };
 
   if (details) {
     payload.details = details;

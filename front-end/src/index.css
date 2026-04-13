@@ -7,32 +7,38 @@
 		--background: 0 0% 100%;
 		--foreground: 222.2 84% 4.9%;
 
-		--card: 0 0% 100%;
-		--card-foreground: 222.2 84% 4.9%;
+		/* Monochromatic Royal Palette */
+		--royal-black: 222 47% 4%;     /* #020617 */
+		--royal-blue: 222 47% 11%;     /* #0F172A */
+		--royal-accent: 217 91% 60%;   /* #3B82F6 - Classic Royal Blue Accent */
+		--royal-deep: 222 47% 20%;      /* #1E293B */
+		--royal-linen: 210 40% 98%;    /* #F8FAFC */
 
-		--popover: 0 0% 100%;
-		--popover-foreground: 222.2 84% 4.9%;
-
-		--primary: 222.2 47.4% 11.2%;
+		--primary: var(--royal-black);
 		--primary-foreground: 210 40% 98%;
 
-		--secondary: 210 40% 96.1%;
-		--secondary-foreground: 222.2 47.4% 11.2%;
+		--secondary: var(--royal-blue);
+		--secondary-foreground: 210 40% 98%;
 
-		--muted: 210 40% 96.1%;
+		--muted: 215 16% 47%;
 		--muted-foreground: 215.4 16.3% 46.9%;
 
-		--accent: 210 40% 96.1%;
-		--accent-foreground: 222.2 47.4% 11.2%;
-
-		--destructive: 0 84.2% 60.2%;
-		--destructive-foreground: 210 40% 98%;
+		--accent: var(--royal-accent);
+		--accent-foreground: 210 40% 98%;
 
 		--border: 214.3 31.8% 91.4%;
 		--input: 214.3 31.8% 91.4%;
-		--ring: 222.2 84% 4.9%;
+		--ring: var(--royal-accent);
 
-		--radius: 0.5rem;
+		--radius: 1rem;
+	}
+
+	* {
+		font-family: 'Outfit', sans-serif;
+	}
+
+	h1, h2, h3, .font-serif {
+		font-family: 'Playfair Display', serif;
 	}
 
 	.dark {

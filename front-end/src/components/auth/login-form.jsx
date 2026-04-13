@@ -7,11 +7,11 @@ export function LoginForm() {
   return (
     <div className="w-full max-w-md space-y-8">
 			<div className="text-center">
-				<h2 className="mt-6 text-3xl font-extrabold text-gray-900">
-					Welcome back
+				<h2 className="mt-6 text-4xl font-black text-primary tracking-tighter leading-none">
+					Welcome <span className="italic font-serif text-accent">back.</span>
 				</h2>
-				<p className="mt-2 text-sm text-gray-600">
-					Please enter your details to sign in
+				<p className="mt-4 text-sm text-muted-foreground font-medium uppercase tracking-widest">
+					Authentication required for elite access
 				</p>
 			</div>
 			
